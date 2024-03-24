@@ -8,5 +8,5 @@ read num1
 echo "please enter num2"
 read num2
 
-$sum=($num1+$num2)
+sum=$(num1+num2)
 echo "$sum"
