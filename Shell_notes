@@ -1,0 +1,14 @@
+#conditional construct that fits your requirement.
+
+#Use -e to check if a file exists.
+#Use -d to check if a path exists and is a directory.
+#Use -f to check if a path exists and is a regular file.
+#Use -z to check if a string is empty.
+#Use -n to check if a string is not empty.
+#Use comparison operators like -eq, -ne, -lt, -gt, etc., for numerical comparisons.
+#Use logical operators like && (AND), || (OR), ! (NOT) for combining conditions.
+
+#The line sum=$((num1 + num2)) performs arithmetic operations within a shell script and assigns the result to a variable. Here's a breakdown:
+
+#sum=: This assigns the value on the right side to the variable sum.
+# (( )): These double parentheses are essential for arithmetic operations in Bash. They tell the shell to interpret the expression within them as a mathematical calculation.
