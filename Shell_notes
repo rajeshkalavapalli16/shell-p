@@ -1,0 +1,21 @@
+#conditional
+#conditional construct that fits your requirement.
+
+#Use -e to check if a file exists.
+#Use -d to check if a path exists and is a directory.
+#Use -f to check if a path exists and is a regular file.
+#Use -z to check if a string is empty.
+#Use -n to check if a string is not empty.
+#Use comparison operators like -eq, -ne, -lt, -gt, etc., for numerical comparisons.
+#Use logical operators like && (AND), || (OR), ! (NOT) for combining conditions.
+
+sum 
+#The line sum=$((num1 + num2)) performs arithmetic operations within a shell script and assigns the result to a variable. Here's a breakdown:
+
+#sum=: This assigns the value on the right side to the variable sum.
+# (( )): These double parentheses are essential for arithmetic operations in Bash. They tell the shell to interpret the expression within them as a mathematical calculation.
+
+prime 
+# Efficient Divisibility Check: For other numbers, it iterates only up to the square root of the number (i*i <= number). This is because if a number has a divisor greater than its square root, it must also have a corresponding divisor less than or equal to the square root (e.g., 12 has a divisor 3, and its square root is slightly less than 3.5).
+# The loop variable i starts from 2 and iterates until i * i is less than or equal to number.
+# Inside the loop, it checks if the remainder (((number % i))) of the division by i is 0. If there's no remainder (perfectly divisible), the number is not prime (is_prime=false), and the loop breaks (break).
