@@ -8,7 +8,7 @@ read number
 
 if ((number %2 == 0))
 then 
-echo "your number is even "
+    echo "your number is even "
 else 
-echo "your number is odd"
+    echo "your number is odd"
 fi 
